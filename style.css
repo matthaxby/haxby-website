@@ -41,12 +41,26 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
+body {
+  width: 100%;
+  background: #99b49e; }
+
+header {
+  width: 100%;
+  display: block;
+  background: #fffdf0; }
+
 svg {
-  position: fixed;
-  top: 0px; }
+  display: block;
+  width: 80%;
+  top: 0px;
+  border: 1px solid black; }
 
 #layer-two {
-  opacity: 0; }
+  opacity: 0;
+  position: fixed; }
 
-body {
-  background: #fffdf0; }
+#progress-bar {
+  width: 50%;
+  height: 35em;
+  background: red; }
