@@ -1,18 +1,19 @@
 
 header {
   width: 100%;
+  height: 160;
   display: block;
   background: rgba(255,	253,	240, 1);
 }
 
 svg {
-  display: block;
   width: 80%;
   top: 0px;
   border: 1px solid black;
+  display: block;
 }
 
 #layer-two {
   opacity: 0;
-  position: fixed;
+  position: absolute;
 }

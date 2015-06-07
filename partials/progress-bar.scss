@@ -1,5 +1,11 @@
 #progress-bar {
+  background: rgba(101,	117,	103, 1);
+}
+
+#container {
   width: 50%;
   height: 35em;
-  background: rgba(101,	117,	103, 1);
+  margin: auto;
+  border: 1px solid black;
+  padding: 1%;
 }

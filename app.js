@@ -1,6 +1,7 @@
 var layerOne = document.getElementById("layer-one");
 var layerTwo = document.getElementById("layer-two");
 var progressBar = document.getElementById("progress-bar");
+var container = document.getElementById('container');
 
 var startDate = new Date (2015, 3, 20);
 var endDate = new Date(2015, 9, 20);
