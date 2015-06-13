@@ -1,11 +1,16 @@
-#progress-bar {
-  background: rgba(101,	117,	103, 1);
-}
+
 
 #container {
-  width: 50%;
-  height: 35em;
-  margin: auto;
+  width: 40%;
+  height: 30em;
+  margin-left: 20%;
+  position: relative;
   border: 1px solid black;
   padding: 1%;
+  margin-top: 2%;
+}
+
+#progress-bar {
+  background: rgba(101,	117,	103, 1);
+  height: 100%;
 }

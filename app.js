@@ -4,11 +4,11 @@ var progressBar = document.getElementById("progress-bar");
 var container = document.getElementById('container');
 
 var startDate = new Date (2015, 3, 20);
-var endDate = new Date(2015, 9, 20);
+var endDate = new Date(2015, 9, 9);
 var today = new Date();
 var totalTime = endDate - startDate;
 var timeSinceStart = today - startDate;
-progressBar.style.height = (timeSinceStart / totalTime) * 40 + 'em';
+container.style.paddingTop = 30 - (timeSinceStart / totalTime) * 30 + 'em';
 
 var path = document.querySelector('path');
 var length = path.getTotalLength();
