@@ -18,7 +18,7 @@ time, mark, audio, video {
   padding: 0;
   border: 0;
   font-size: 100%;
-  font: inherit;
+  font-family: sans-serif;
   vertical-align: baseline; }
 
 /* HTML5 display-role reset for older browsers */
@@ -76,9 +76,15 @@ nav ul li {
   display: inline-block;
   position: relative; }
 
+/* .drop-down {
+  float: right;
+}
+ */
 nav ul li ul {
   position: absolute;
-  display: none; }
+  display: none;
+  background: #fffdf0;
+  border: 1px solid black; }
 
 nav ul li:hover ul {
   display: block;
@@ -87,7 +93,8 @@ nav ul li:hover ul {
 nav ul li ul li {
   display: block;
   text-align: center;
-  white-space: nowrap; }
+  white-space: nowrap;
+  padding: 10px 40px; }
 
 /*
 nav ul {

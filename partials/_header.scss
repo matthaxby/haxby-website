@@ -34,9 +34,15 @@ nav ul li {
   position: relative;
 }
 
+/* .drop-down {
+  float: right;
+}
+ */
 nav ul li ul {
   position: absolute;
   display: none;
+  background: rgba(255,	253,	240, 1);
+  border:1px solid black;
 }
 
 nav ul li:hover ul {
@@ -48,6 +54,7 @@ nav ul li ul li {
   display: block;
   text-align: center;
   white-space: nowrap;
+  padding: 10px 40px;
 }
 /*
 nav ul {
