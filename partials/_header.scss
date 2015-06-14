@@ -8,7 +8,6 @@ header {
 
 svg {
   top: 0px;
-  border: 1px solid black;
 }
 
 #layer-two {
@@ -19,6 +18,7 @@ svg {
 
 nav {
   width: 100%;
+  border: 1px solid black;
 }
 
 #name {
@@ -34,10 +34,12 @@ nav ul li {
   position: relative;
 }
 
-/* .drop-down {
+.drop-down {
+  width: 20%;
   float: right;
+  border-left: 1px solid black;
 }
- */
+
 nav ul li ul {
   position: absolute;
   display: none;
@@ -56,32 +58,3 @@ nav ul li ul li {
   white-space: nowrap;
   padding: 10px 40px;
 }
-/*
-nav ul {
-  width: 100%;
-  position: relative;
-  display: inline-table;
-}
-
-nav ul ul {
-  float: left;
-  position: relative;
-  display: inline-block;
-}
-
-nav ul ul li {
-  display: none;
-  position: relative;
-  background: red;
-  padding: 15px 40px;
-}
-nav ul:after {
-  content: "";
-  clear: both;
-  display: block;
-}
-
-nav ul ul:hover > li {
-  display: block;
-}
- */
