@@ -78,8 +78,7 @@ nav ul li {
 
 .drop-down {
   width: 20%;
-  float: right;
-  border-left: 1px solid black; }
+  float: right; }
 
 nav ul li ul {
   position: absolute;
@@ -87,7 +86,7 @@ nav ul li ul {
   background: #fffdf0;
   border: 1px solid black; }
 
-nav ul li:hover ul {
+nav ul li:active ul {
   display: block;
   right: 0; }
 
