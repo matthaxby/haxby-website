@@ -1,7 +1,9 @@
 var layerOne = document.getElementById("layer-one"),
     layerTwo = document.getElementById("layer-two"),
     progressBar = document.getElementById("progress-bar"),
-    container = document.getElementById('container')
+    container = document.getElementById('container'),
+    dropdown = document.getElementById('drop-down'),
+    menu = document.getElementById('menu')
 
 var startDate = new Date (2015, 3, 20);
 var endDate = new Date(2015, 9, 9);
@@ -36,3 +38,7 @@ var turnOn = function () {
 
 setTimeout(turnOn, 800);
 setTimeout(turnOff, 1500);
+
+dropdown.addEventListener('click', function() {
+  menu.style.display = 'block'
+})
