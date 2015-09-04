@@ -1,19 +1,28 @@
 
 header {
   width: 100%;
-  height: 160;
   display: block;
   background: rgba(255,	253,	240, 1);
 }
 
 svg {
   top: 0px;
+  height: 70px;
 }
 
 #layer-two {
   opacity: 0;
   position: absolute;
   left: 0;
+  animation-delay: .8s;
+  animation-duration: .25s;
+  animation-name: appear;
+  -webkit-animation-fill-mode: forwards;
+}
+
+#XMLID_1_ {
+ stroke-dasharray: 2481.8525390625 2481.8525390625;
+ animation: draw 2s ease-in-out;
 }
 
 nav {
@@ -35,7 +44,6 @@ nav ul li {
 }
 
 #drop-down {
-  width: 20%;
   float: right;
 }
 
@@ -44,16 +52,17 @@ nav ul li ul {
   display: none;
   background: rgba(255,	253,	240, 1);
   border:1px solid black;
-  right: 0;
+  right: 20px;
+  top:100px;
 }
 
-/* nav ul li:active ul {
+nav ul li:active ul {
   display: block;
 }
- */
+
 nav ul li ul li {
   display: block;
   text-align: center;
   white-space: nowrap;
-  padding: 10px 40px;
+  padding: 10px 50px;
 }

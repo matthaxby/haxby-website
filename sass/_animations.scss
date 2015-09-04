@@ -1,0 +1,17 @@
+@keyframes draw {
+  from {
+    stroke-dashoffset: 2481.8525390625;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes appear {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

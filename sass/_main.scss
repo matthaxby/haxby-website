@@ -1,0 +1,21 @@
+.nonDraggableImage {
+    -webkit-user-drag: none;
+}
+
+.projects {
+  position: relative;
+  width: 100%;
+}
+
+.project {
+  width: 90%;
+  position: absolute;
+  top: 20%;
+  left: 0;
+  margin: 5%;
+  border: 1px solid black;
+}
+
+.arrow {
+  display:block;
+}
