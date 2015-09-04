@@ -12,7 +12,7 @@
 <body ng-cloak ng-controller="MainController" ontouchstart="" onmouseover="">
   <logo-directive></logo-directive>
   <div class="projects" >
-    <img ng-repeat="project in projects" ng-hide="!isCurrentProjectIndex($index)" ng-swipe-right="nextSlide()" ng-swipe-left="prevSlide()" class="project swipe-animation nonDraggableImage" src="{{project.image}}">
+    <img ng-repeat="project in projects" ng-hide="!isCurrentProjectIndex($index)" ng-swipe-right="nextProject()" ng-swipe-left="prevProject()" class="project swipe-animation nonDraggableImage" src="{{project.image}}">
     <a class="arrow prev" href="#" ng-click="nextProject()">next</a>
     <a class="arrow next" href="#" ng-click="prevProject()">last</a>
     <nav class="nav">
