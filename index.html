@@ -13,8 +13,18 @@
   <logo-directive></logo-directive>
   <div class="projects" >
     <img ng-repeat="project in projects" ng-hide="!isCurrentProjectIndex($index)" ng-swipe-right="nextProject()" ng-swipe-left="prevProject()" class="project swipe-animation nonDraggableImage" src="{{project.image}}">
-    <a class="arrow prev" href="#" ng-click="nextProject()">next</a>
-    <a class="arrow next" href="#" ng-click="prevProject()">last</a>
+    <a class="arrow prev" href="#" ng-click="prevProject()">
+      <svg version="1.1" class="forward" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+    	 viewBox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve">
+      <polygon fill="none" stroke="#000000" stroke-miterlimit="10" points="36.5,22.2 61.2,46.9 36.5,71.6 "/>
+      </svg>
+    </a>
+    <a class="arrow next" href="#" ng-click="nextProject()">
+      <svg version="1.1" class="backward" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+  	 viewBox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve">
+      <polygon fill="none" stroke="#000000" stroke-miterlimit="10" points="36.5,22.2 61.2,46.9 36.5,71.6 "/>
+      </svg>
+    </a>
     <nav class="nav">
       <div class="wrapper">
           <ul class="dots">

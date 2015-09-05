@@ -14,15 +14,17 @@ svg {
   opacity: 0;
   position: absolute;
   left: 0;
-  animation-delay: .8s;
-  animation-duration: .25s;
-  animation-name: appear;
+  -webkit-animation-delay: .8s;
+  -webkit-animation-duration: .25s;
+  -webkit-animation-name: appear;
   -webkit-animation-fill-mode: forwards;
 }
 
 #XMLID_1_ {
  stroke-dasharray: 2481.8525390625 2481.8525390625;
- animation: draw 2s ease-in-out;
+ -webkit-animation-name: draw;
+ -webkit-animation-timing-function: ease-in-out;
+ -webkit-animation-duration: 2s;
 }
 
 nav {

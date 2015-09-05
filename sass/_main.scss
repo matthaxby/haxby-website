@@ -1,5 +1,26 @@
+.backward {
+  -webkit-transform: scaleX(-1);
+  position: absolute;
+  left: 0;
+  margin-top: 18%;
+}
+
+.forward {
+  position: absolute;
+  right: 0;
+  margin-top: 18%;
+}
+
 .nonDraggableImage {
     -webkit-user-drag: none;
+}
+
+.dot {
+  margin: 1% 0 1% 5%;
+  * {
+    text-decoration: none;
+    color: black;
+  }
 }
 
 .projects {
@@ -8,10 +29,10 @@
 }
 
 .project {
-  width: 90%;
+  width: 80%;
   position: absolute;
   top: 20%;
-  left: 0;
+  left: 5%;
   margin: 5%;
   border: 1px solid black;
 }
