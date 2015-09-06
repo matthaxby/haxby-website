@@ -181,7 +181,7 @@ nav ul li ul li {
     height: 100px; }
   .project, .description {
     width: 50%;
-    transform: translateX(50%); }
+    -webkit-transform: translateX(50%); }
   .arrow {
     margin-top: 20%;
     margin-left: 5%;
