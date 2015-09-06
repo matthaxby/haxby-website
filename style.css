@@ -79,9 +79,6 @@ table {
 .forward:hover {
   -webkit-transform: scale(1.1); }
 
-.filler:hover {
-  fill: gray; }
-
 .backward {
   -webkit-transform: scaleX(-1);
   float: left; }
@@ -181,4 +178,11 @@ nav ul li ul li {
 
 @media (min-width: 600px) {
   svg {
-    height: 100px; } }
+    height: 100px; }
+  .project, .description {
+    width: 50%;
+    transform: translateX(50%); }
+  .arrow {
+    margin-top: 20%;
+    margin-left: 5%;
+    margin-right: 5%; } }
