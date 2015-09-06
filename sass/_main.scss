@@ -1,14 +1,7 @@
-.backward {
-  -webkit-transform: scaleX(-1);
-  position: absolute;
-  left: 0;
-  margin-top: 18%;
-}
 
-.forward {
-  position: absolute;
-  right: 0;
-  margin-top: 18%;
+.slider {
+  width: 100%;
+  height: 400px;
 }
 
 .nonDraggableImage {
@@ -23,20 +16,33 @@
   }
 }
 
-.projects {
+/* .projects {
+  display: inline-block;
   position: relative;
-  width: 100%;
+  width: 70%;
+  float: left;
 }
+ */
+ .project-container {
+   width: 100%;
+   position: absolute;
+ }
 
 .project {
-  width: 80%;
-  position: absolute;
-  top: 20%;
-  left: 5%;
-  margin: 5%;
+  width: 100%;
   border: 1px solid black;
 }
 
 .arrow {
-  display:block;
+  width: 10%;
+  margin-top: 20%;
+  position: relative;
+  display: inline-block;
+  float: right;
+  z-index: 1;
+}
+
+.backward {
+  transform: scaleX(-1);
+  float: left;
 }
