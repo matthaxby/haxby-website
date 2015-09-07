@@ -46,19 +46,17 @@
         </g>
         </svg>
       </li>
-<!--       <li id="drop-down">
+<li ng-click="toggleMenu()" id="drop-down">
   <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
      viewBox="0 0 128 128" enable-background="new 0 0 128 128" xml:space="preserve">
   <path fill="none" stroke="#000000" stroke-miterlimit="10" d="M77.3,49.5L62.6,78.4L47.9,49.5H77.3z"/>
   </svg>
-  <ul id="menu">
-    <li id="home" class="navMenu">home</li>
-    <li id="about" class="navMenu">about</li>
-    <li id="portfolio" class="navMenu">portfolio</li>
-    <li id="contact" class="navMenu">contact</li>
-    <li id="orc-fights" class="navMenu"><a href="http://matthaxby.github.io/Orc-Fights/">orc fight?</a></li>
+  <ul id="menu"  ng-show="menuToggle">
+    <li id="home" class="navMenu"><a href="#/">home</a></li>
+    <li id="about" class="navMenu"><a href="#/about">about</a></li>
+    <li id="projects" class="navMenu"><a href="#/projects">projects</a></li>
+    <li id="contact" class="navMenu"><a href="#/contact">contact</a></li>
   </ul>
-</li>
- -->    </ul>
+</li>    </ul>
   </nav>
 </header>
