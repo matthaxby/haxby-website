@@ -7,10 +7,10 @@ app.animation('.swipe-animation', function () {
             if (scope.direction !== 'right') {
               finish = -2000
             }
-              TweenMax.to(element, 0.5, {transform: 'translateX(' + finish + 'px)', onComplete: done });
+              TweenMax.to(element, 0.5, {transform: 'translateX(' + finish + 'px)', onComplete: done })
           }
           else {
-              done();
+              done()
           }
         },
         removeClass: function (element, className, done) {
@@ -29,5 +29,5 @@ app.animation('.swipe-animation', function () {
               done();
           }
         }
-    };
-});
+    }
+})
