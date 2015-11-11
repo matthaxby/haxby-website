@@ -15,3 +15,24 @@
     opacity: 1;
   }
 }
+
+@-webkit-keyframes shrink {
+  from {
+  }
+  to {
+    width: 30%;
+    top: 0;
+    left: 15%;
+    transform: translate(-50%, 0);
+  }
+}
+
+
+@-webkit-keyframes shrink-mobile {
+  from {
+  }
+  to {
+    top: 60%;
+    transform: translate(-50%, -50%);
+  }
+}

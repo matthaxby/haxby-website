@@ -27,7 +27,7 @@
  }
 
 .project {
-  width: 100%;
+  max-width: 100%;
   border: 1px solid black;
 }
 
@@ -55,12 +55,13 @@
 .project-title {
   text-align: center;
   font-size: 30px;
-  margin: 10px;
+  margin: 20px;
 }
 
 .description {
   h3 {
     font-style: italic;
+    font-weight: 500;
   }
   * {
     margin: 20px;
@@ -75,4 +76,7 @@
 
 .dots {
   text-align: center;
+  li {
+    display: inline-block;
+  }
 }

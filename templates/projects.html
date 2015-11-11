@@ -8,7 +8,7 @@
 
   <div class="project-container swipe-animation" ng-repeat="project in projects" ng-hide="!isCurrentProjectIndex($index)" ng-swipe-right="nextProject()" ng-swipe-left="prevProject()"  >
     <h1 class="project-title">{{project.title}}</h1>
-    <img class="project nonDraggableImage" src="{{project.image}}">
+    <img class="project nonDraggableImage" src="{{project.image}}" loop="infinte">
     <article class="description">
       <p>{{project.description}}</p>
       <h3>Technical</h3>

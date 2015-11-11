@@ -19,8 +19,9 @@ time, mark, audio, video {
   padding: 0;
   border: 0;
   font-size: 100%;
-  font-family: sans-serif;
+  font-family: "HelveticaNeue-Light", sans-serif;
   vertical-align: baseline;
+  font-weight: 300;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
@@ -29,6 +30,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
   line-height: 1;
+  background: rgba(255,	254,	250, 1);
 }
 ol, ul {
   list-style: none;
