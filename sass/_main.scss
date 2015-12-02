@@ -80,3 +80,21 @@
     display: inline-block;
   }
 }
+
+.about-header {
+  text-align: center;
+  margin-top: 4em;
+  margin-bottom: 2em;
+}
+
+.portrait {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2em;
+  border: 1px solid black;
+}
+
+.about-p {
+  margin: 2em;
+}

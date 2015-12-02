@@ -111,6 +111,21 @@ table {
   .dots li {
     display: inline-block; }
 
+.about-header {
+  text-align: center;
+  margin-top: 4em;
+  margin-bottom: 2em; }
+
+.portrait {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2em;
+  border: 1px solid black; }
+
+.about-p {
+  margin: 2em; }
+
 @-webkit-keyframes draw {
   0% {
     stroke-dashoffset: 2481.8525390625; }
