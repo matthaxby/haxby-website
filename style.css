@@ -126,6 +126,16 @@ table {
 .about-p {
   margin: 2em; }
 
+.contact {
+  position: relative;
+  text-align: center;
+  margin-top: 5em; }
+  .contact * {
+    margin: 2em;
+    text-decoration: none;
+    display: block;
+    color: black; }
+
 @-webkit-keyframes draw {
   0% {
     stroke-dashoffset: 2481.8525390625; }
