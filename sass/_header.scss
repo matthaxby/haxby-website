@@ -51,7 +51,8 @@ header {
 }
 
 .nav-list {
-  text-align: center;
+  float: right;
+  margin-right: 20px;
   #menu * {
     margin-top: 18%;
     width: 90px;

@@ -143,12 +143,6 @@ a:hover {
   transition: .4s;
   letter-spacing: 3px; }
 
-.welcome {
-  font-size: 3em;
-  font-weight: 100;
-  text-align: center;
-  margin-top: 3em; }
-
 @-webkit-keyframes draw {
   0% {
     stroke-dashoffset: 2481.8525390625; }
@@ -218,7 +212,8 @@ header {
   position: relative; }
 
 .nav-list {
-  text-align: center; }
+  float: right;
+  margin-right: 20px; }
   .nav-list #menu * {
     margin-top: 18%;
     width: 90px;
